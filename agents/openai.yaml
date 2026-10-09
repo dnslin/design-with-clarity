@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design with Clarity"
+  short_description: "减少界面猜测，以视觉关系表达信息与操作"
+  default_prompt: "Use $design-with-clarity to review or improve this interface. Preserve the existing product behavior and visual style, identify concrete sources of user confusion, and recommend the smallest effective changes."
