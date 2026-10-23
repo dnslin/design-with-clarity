@@ -1,8 +1,8 @@
 # design-with-clarity
 
-把《Don't Make Me Think》和《写给大家看的设计书》的核心原则，与具体 UI 打磨方法结合，用于设计、改稿和评审界面。
+把《Don't Make Me Think》和《写给大家看的设计书》的核心原则，与具体 UI 和交互打磨方法结合，用于设计、改稿和评审界面。
 
-**目标：让界面清楚、协调，并把设计方向落实到布局、文字、配色与细节。**
+**目标：让界面清楚、有个性，把设计方向落实到布局、文字、配色与操作感受。**
 
 这是一个风格中立的 Agent Skill，可用于网页、应用界面，以及海报、文档等信息排版。小修采用最小有效改动；明确要求视觉重设计时，允许在授权范围内充分调整。它不会默认新增功能或重做全站。
 
@@ -12,6 +12,7 @@
 - 优化布局、信息层级、文字、分组、对齐和反馈。
 - 根据参考确定视觉方向，改进太模板化或缺少细节的页面。
 - 按具体问题打磨颜色用途、字体层级、光学对齐、轮廓与动效。
+- 改善结果预览、局部反馈和连续操作，让合适的趣味细节融入现有动作。
 - 在实现 UI 时检查设计是否清楚、是否保留必要的信息。
 - 审视海报、文档等静态内容的阅读顺序和视觉关系。
 
@@ -52,10 +53,12 @@
 
 这些不是固定的视觉配方。清晰不等于空旷，少点击不必然更好，一致性也不等于所有东西相同。
 
+趣味、亲近和探索也可以是设计目标。根据产品情境安排表达与节奏；沿用当前功能，不为了增加个性另造玩法。
+
 ## 文件
 
 - [SKILL.md](SKILL.md)：技能规则与执行方法。
-- [references/visual-polish.md](references/visual-polish.md)：按需使用的界面打磨方法。
+- [references/visual-polish.md](references/visual-polish.md)：按需使用的视觉、反馈与交互打磨方法。
 - [references/sources.md](references/sources.md)：书籍、公开 UI 实践的来源与应用边界。
 - [agents/openai.yaml](agents/openai.yaml)：技能界面元数据。
 
@@ -63,6 +66,6 @@
 
 本项目提炼自 Steve Krug 的 *Don't Make Me Think, Revisited*（第 3 版）和 Robin Williams 的 *The Non-Designer's Design Book*（第 4 版，中文常译《写给大家看的设计书》）。
 
-视觉打磨方法还参考了 [ZaynHao 的公开 UI 提示](https://x.com/ZaynHao/status/2113456751915982917)及 Radix 官方文档，按使用条件重新组织。特定字体数量、边框粗细、动画时长和颜色库不会变成所有项目的固定要求。
+打磨方法还参考了 [ZaynHao 的 UI 与交互实践](https://x.com/ZaynHao)、Benji Taylor 的 [Honkish](https://benji.org/honkish) 及 Radix 官方文档，按使用条件重新组织。特定字体数量、边框粗细、动画时长和颜色库不会变成所有项目的固定要求。
 
 这里提供的是**原创归纳与实践规则**。详细出处、材料可见范围及应用边界见 [sources.md](references/sources.md)。

@@ -1,4 +1,4 @@
 interface:
   display_name: "Design with Clarity"
-  short_description: "把设计方向落实到清晰的布局、配色、文字与交互，按任务改稿或评审"
-  default_prompt: "Use $design-with-clarity to design, refine, or review this interface within the requested scope. Turn the visual direction into concrete choices, preserve required behavior and information, and use the smallest effective changes for local fixes."
+  short_description: "让布局、文字与交互清楚有个性，按任务进行设计、改稿或评审"
+  default_prompt: "Use $design-with-clarity to design, refine, or review this interface within the requested scope. Turn the desired character into concrete visual and interaction choices, preserve required behavior and information, and use the smallest effective changes for local fixes."
