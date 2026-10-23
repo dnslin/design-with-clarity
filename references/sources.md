@@ -1,26 +1,38 @@
 # 参考资料与归纳边界
 
-本技能以两本设计书中的通用原则为基础，结合公开 UI 实践与交互设计案例，将其转化为网页、应用和信息排版任务中的执行方法。这里列出可核对的公开材料，**不宣称复现或替代全书，也不完整转录他人的提示词**。
+本技能以两本设计书的观点为基础，将其转化为判断内容关系、用户理解与具体改稿的方法，再结合公开 UI 实践处理细节。这里记录实际核验范围，**不把目录或章首预览当作已读完整章节，不宣称复现或替代全书**。工作流程、现代 UI 例子与方案取舍是本仓库的原创应用归纳。
 
 ## 书籍
 
-1. Steve Krug, *Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability*, 3rd edition, New Riders, 2014.
+1. Steve Krug, *Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability*, 3rd edition, New Riders, 2014；另核对作者公开的第一版第 11 章，明确区分版次。
 2. Robin Williams, *The Non-Designer's Design Book*, 4th edition, Peachpit Press, 2014（中译常称《写给大家看的设计书》）。
 
 ## 公开参考
 
 ### Steve Krug
 
-- [Don't Make Me Think, Revisited — 官方公开样章 (PDF)](https://www.peachpit.com/content/images/9780321965516/samplepages/0321965515.pdf)：用户面对界面的疑问、选择成本和点击的代价。
-- [Peachpit 作者文章：Don't Make Me Think](https://www.peachpit.com/articles/article.aspx?p=2209309)：清晰命名和减少无谓猜测。
-- [Peachpit 作者文章：Visual Hierarchy](https://www.peachpit.com/articles/article.aspx?p=2209310)：用视觉呈现重要性、相似性和包含关系。
-- [Peachpit 作者文章：Usability Testing](https://www.peachpit.com/articles/article.aspx?p=2209313)：通过观察实际任务而非猜测来检验理解。
+| 已读取的一手材料 | 实际可见范围及本技能所用内容 |
+| --- | --- |
+| [第三版官方样章 PDF](https://www.peachpit.com/content/images/9780321965516/samplepages/0321965515.pdf) | 前言、目录与第 4 章正文，书页 42–47；讨论选择的不确定性、重复路径与等待、适时帮助。不是第 2 章或导航章的全文 |
+| [Things that Make Us Think](https://www.peachpit.com/articles/article.aspx?p=2209309) | 出版方正文节选；从名称、可点击性与具体任务辨认界面引出的疑问 |
+| [Creating Effective Visual Hierarchies](https://www.peachpit.com/articles/article.aspx?p=2209310) | 出版方正文节选；外观怎样表达重要性、相似性和包含关系 |
+| [Several True Things about Usability Testing](https://www.peachpit.com/articles/article.aspx?p=2209313) | 出版方正文节选；设计者熟悉造成的盲点，及早观察他人使用的价值 |
+| [作者公开的第一版第 11 章](https://sensible.com/downloads/DMMTchapter11_for_personal_use_only.pdf) | 书页 175–181，解释测试结果；定位具体偏差、先试有效的小调整、面对根本问题并复核结果。仅链接，不将此 PDF 收入仓库或重新分发 |
+| [Krug 本人采访](https://builtin.com/articles/simplicity-ux-steve-krug-interview) | 2020-04-07，采访全文；注意力和背景差距、边用边理解、思考内容与猜测控件的区别 |
+| [第一版第 2 章正式预览](https://www.oreilly.com/library/view/dont-make-me/0789723107/ch03.html) | 只见章首与小节标题，正文在详细解释前截断；未以此声称完整核验三个行为模型的全部论证 |
+
+主技能将“扫线索、先尝试合理入口、边用边理解”用作具体任务中的设计假设；入口连续性、操作范围与反例检查属于应用推导。不能从这些材料声称已通读第三版或完整核验其导航章。
 
 ### Robin Williams
 
-- [The Non-Designer's Design Book — 第四版公开预览 (PDF)](https://api.pageplace.de/preview/DT0400.9780133966336_A23586692/preview-9780133966336_A23586692.pdf)：亲密性、对齐、重复、对比原则。
-- [Peachpit 作者文章：Repetition](https://www.peachpit.com/articles/article.aspx?p=2268752)：一致的设计语言与有意义的变化。
-- [O'Reilly 第四版目录／排版章节](https://www.oreilly.com/library/view/the-non-designers-design/9780133966350/ch12.html)：字体的对比、沟通和组织作用。
+| 已读取的一手材料 | 实际可见范围及本技能所用内容 |
+| --- | --- |
+| [第四版正式分销预览 PDF](https://api.pageplace.de/preview/DT0400.9780133966336_A23586692/preview-9780133966336_A23586692.pdf) | 前置资料、导言、亲密性正文至书页 24；导言说明四原则共同作用，正文展示距离如何暗示归属。不是四个完整章节 |
+| [Peachpit 第四版官方样章 PDF](https://www.peachpit.com/content/images/9780133966152/samplepages/9780133966152.pdf)、[Repetition 正文节选](https://www.peachpit.com/articles/article.aspx?p=2268752) | 同一章的两种形式，书页 55–68；重复不止自然一致，还能主动建立识别度、整体感和有联系的变化 |
+| [第 10 章 Type (& Life)](https://www.oreilly.com/library/view/the-non-designers-design/9780133966350/ch10.html) | 仅章首正式预览；列出协调、冲突、对比三种字体关系，不将未显示的细节补成已核验全文 |
+| [第 12 章 Type Contrasts](https://www.oreilly.com/library/view/the-non-designers-design/9780133966350/ch12.html) | 仅章首正式预览；字体对比同时服务视觉吸引与信息组织 |
+
+除正文外，实际渲染并查看了上述 PDF 中书页 12、20、24、57、63 的版式例图，核对分组、阅读起点与重复特征的呈现。由内容关系出发选择视觉手段，以及中文界面的字段、表格、状态等处理，是应用方法；不声称书中规定了这一套工作顺序。
 
 上述链接指向出版方、作者文章或正式预览；访问权限与可见章节可能随时间变化。
 
@@ -63,11 +75,13 @@
 
 | 技能内容 | 主要依据 | 说明 |
 | --- | --- | --- |
-| 额外疑问、扫读、选择、删减无效文字 | Krug | 强调用户对名称、位置、操作、结果的理解 |
-| 亲密性、对齐、重复、对比 | Williams | 强调视觉关系与信息组织 |
+| 线索引出的理解、选择的不确定性、观察实际任务 | Krug 公开正文与本人采访 | 由具体偏差决定修正，不只检查正确入口是否存在 |
+| 内容单位、位置联系、系列识别与明确差异 | Williams 公开材料 + 应用推导 | 四原则共同表达关系；重复包含主动的视觉联系与个性 |
 | 用视觉表达重要性、相似性与包含关系 | Krug + Williams | 两本书的交集 |
-| 最小改动、保留密集信息、不默认新增功能 | 应用推导 | 为现代产品开发及评审增加的范围约束 |
-| 截图、运行、真实任务观察分级 | 应用推导 | 避免把主观推测当成用户研究结论 |
+| 先试足以解决问题的调整，必要时面对结构问题 | Krug 第一版第 11 章 + 应用推导 | 不以局部打磨代替真正修复，也不把每次改稿扩成重设计 |
+| 保留比较所需的信息、按任务控制范围 | 应用推导 | 依据用户任务处理密度，不是书中固定界面配方 |
+| 可见事实、理解假设、实现结果与真人观察 | 应用推导 | 让改动能被核对，避免把自查当成研究结论 |
+| 三个完整改稿例子及替代方案 | 本仓库原创 | 假设情境，展示因果依据与改变判断的条件，并非作者案例或实测 |
 | 参考转化、视觉方向、按任务选择改动幅度 | 应用推导 | 支持新设计与明确授权的视觉改稿，不扩大产品范围 |
 | 光学对齐、颜色角色、字号与动效收敛 | ZaynHao 公开索引片段 + 应用推导 | 将实践提示改写为有使用条件的打磨方法 |
 | 结果预览、对象附近反馈、空间上下文与阶段节奏 | ZaynHao 交互案例 + 应用推导 | 从当前动作及状态判断，不照搬特定控件 |
